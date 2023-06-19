@@ -12,12 +12,16 @@ Dependencies:
 Create env w. Conda:
 
 conda create --name myenv
+
 conda create -n myenv python=3.9
     
 
 conda env list
+
 packages conda list -n envname
+
 conda config --show channels
+
 conda config --show default_channels
         
 
