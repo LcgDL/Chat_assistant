@@ -3,8 +3,8 @@ Chatbot - ChatGPT in Python
 In this project a chatbot is created based on ChatGpt API.
 
 Dependencies:
-  openai
-  gradio _> python 3.8+
+  openai -> python 3
+  gradio -> python 3.8+
   
 Create env w. Conda:
     conda create --name myenv
@@ -16,7 +16,9 @@ Create env w. Conda:
         conda config --show default_channels
         
 conda install --name <conda_env_name> -c <channel_name> <package_name>
+
 conda install --name envName -c defaults openai
+
 conda install -c conda-forge gradio
              
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
@@ -24,10 +26,10 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 with pip:
     python3 -m venv nameEnv
 
-    close and open new terminal or: 
-        source nameEnv/bin/activate
+close and open new terminal or: 
+source nameEnv/bin/activate
     
-    pip install openai
-    pip install gradio
+pip install openai
+pip install gradio
 
 
