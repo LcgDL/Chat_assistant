@@ -1,5 +1,6 @@
 # Chat_assistant
 Chatbot - ChatGPT in Python 
+
 In this project a chatbot is created based on ChatGpt API.
 
 Dependencies:
