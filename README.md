@@ -10,14 +10,17 @@ Dependencies:
   
 
 Create env w. Conda:
-    conda create --name myenv
-    conda create -n myenv python=3.9
+
+conda create --name myenv
+conda create -n myenv python=3.9
     
- conda env list
- packages conda list -n envname
- conda config --show channels
- conda config --show default_channels
+
+conda env list
+packages conda list -n envname
+conda config --show channels
+conda config --show default_channels
         
+
 conda install --name <conda_env_name> -c <channel_name> <package_name>
 
 conda install --name envName -c defaults openai
@@ -28,9 +31,11 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 
 
 Create env with pip:
-    python3 -m venv nameEnv
+
+python3 -m venv nameEnv
 
 close and open new terminal or: 
+
 source nameEnv/bin/activate
     
 pip install openai
