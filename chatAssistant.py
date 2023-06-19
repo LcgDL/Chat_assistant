@@ -1,7 +1,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = "sk-GPT_API_Key"
 
 mess = [{"role":"system","content":"You are a Psychologist"}]
 
