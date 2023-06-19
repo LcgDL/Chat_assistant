@@ -4,6 +4,7 @@ In this project a chatbot is created based on ChatGpt API.
 
 Dependencies:
   openai -> python 3
+  
   gradio -> python 3.8+
   
 
