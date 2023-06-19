@@ -39,6 +39,7 @@ close and open new terminal or:
 source nameEnv/bin/activate
     
 pip install openai
+
 pip install gradio
 
 
